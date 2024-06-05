@@ -4,9 +4,11 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: urob
       url-base: https://github.com/urob
+    - name: absolzen
+      url-base: https://github.com/absolzen
   projects:
     - name: zmk
-      remote: urob
+      remote: absolzen
       revision: main
       import: app/west.yml
     - name: zmk-helpers
